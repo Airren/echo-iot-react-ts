@@ -1,7 +1,7 @@
 // import { GithubOutlined } from '@ant-design/icons';
 import { DefaultFooter } from '@ant-design/pro-layout';
 export default () => {
-  const defaultMessage = '亿氪生物 All Rights Reserved';
+  const defaultMessage = '亿氪信息 All Rights Reserved';
   const currentYear = new Date().getFullYear();
   return (
     <DefaultFooter

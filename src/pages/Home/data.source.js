@@ -1,365 +1,75 @@
 import React from 'react';
-export const Nav00DataSource = {
-  wrapper: { className: 'header0 home-page-wrapper' },
+export const Nav30DataSource = {
+  wrapper: { className: 'header3 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
-    className: 'header0-logo',
-    children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
+    className: 'header3-logo',
+    children: './big-logo.jpg',
   },
   Menu: {
-    className: 'header0-menu',
+    className: 'header3-menu',
     children: [
       {
         name: 'item0',
-        className: 'header0-item',
+        className: 'header3-item',
         children: {
-          href: '#',
-          children: [{ children: '解决方案', name: 'text' }],
+          href: '/',
+          children: [{ children: '首页', name: 'text' }],
         },
-        subItem: [
-          {
-            name: 'sub0',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                // {
-                //   name: 'image0',
-                //   className: 'item-image',
-                //   children:
-                //     'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                // },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: '基因测序',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: 'Gene Test',
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub1',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                // {
-                //   name: 'image0',
-                //   className: 'item-image',
-                //   children:
-                //     'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                // },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: '健康评估',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: 'Healthy Status',
-                },
-              ],
-            },
-          },
-        ],
       },
       {
         name: 'item1',
-        className: 'header0-item',
+        className: 'header3-item',
         children: {
-          href: './welcome',
-          children: [{ children: '生信云', name: 'text' }],
+          href: '/dashboard/dashboardmonitor',
+          children: [{ children: '物联云', name: 'text' }],
         },
       },
       {
         name: 'item2',
-        className: 'header0-item',
+        className: 'header3-item',
         children: {
           href: '#',
-          children: [{ children: '科研服务', name: 'text' }],
+          children: [{ children: '技术支持', name: 'text' }],
         },
       },
       {
         name: 'item3',
-        className: 'header0-item',
+        className: 'header3-item',
         children: {
-          href:
-            'http://www.bytegopher.com:7001/login/oauth/authorize?client_id=59a6ca303be1d881a7fc&' +
-            'response_type=code&redirect_uri=http://localhost:8001/user/login&scope=read&state=echo-bio-cloud',
+          href: '/contact',
           children: [{ children: '联系我们', name: 'text' }],
         },
       },
     ],
   },
-  mobileMenu: { className: 'header0-mobile-menu' },
+  mobileMenu: { className: 'header3-mobile-menu' },
 };
-export const Banner10DataSource = {
-  wrapper: { className: 'banner1 kur69h1xat6-editor_css' },
-  BannerAnim: {
+export const Banner30DataSource = {
+  wrapper: { className: 'banner3' },
+  textWrapper: {
+    className: 'banner3-text-wrapper',
     children: [
       {
-        name: 'elem0',
-        BannerElement: { className: 'banner-user-elem kur68n8svys-editor_css' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg0 kur68ahin98-editor_css' },
-        title: {
-          className: 'banner1-title',
-          children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
+        name: 'nameEn',
+        className: 'banner3-name-en',
+        children: 'Trusted Industrial IoT Integrated Solution Provider',
       },
       {
-        name: 'elem1',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg1' },
-        title: {
-          className: 'banner1-title',
-          children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
+        name: 'slogan',
+        className: 'banner3-slogan',
+        children: '可信工业物联网一体解决方案提供商',
+        texty: true,
       },
       {
-        name: 'elem2',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg1' },
-        title: {
-          className: 'banner1-title',
-          children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
-      },
-    ],
-    className: 'kur68tsade7-editor_css',
-  },
-};
-export const Content00DataSource = {
-  wrapper: { className: 'home-page-wrapper content0-wrapper' },
-  page: { className: 'home-page content0' },
-  OverPack: { playScale: 0.3, className: '' },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [{ name: 'title', children: '产品与服务' }],
-  },
-  childWrapper: {
-    className: 'content0-block-wrapper',
-    children: [
-      {
-        name: 'block0',
-        className: 'content0-block',
-        md: 8,
-        xs: 24,
-        children: {
-          className: 'content0-block-item',
-          children: [
-            {
-              name: 'image',
-              className: 'content0-block-icon',
-              children: 'https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png',
-            },
-            {
-              name: 'title',
-              className: 'content0-block-title',
-              children: '一站式业务接入',
-            },
-            { name: 'content', children: '支付、结算、核算接入产品效率翻四倍' },
-          ],
-        },
+        name: 'name',
+        className: 'banner3-name',
+        children: '探索极致用户体验与最佳工程实践探索',
       },
       {
-        name: 'block1',
-        className: 'content0-block',
-        md: 8,
-        xs: 24,
-        children: {
-          className: 'content0-block-item',
-          children: [
-            {
-              name: 'image',
-              className: 'content0-block-icon',
-              children: 'https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png',
-            },
-            {
-              name: 'title',
-              className: 'content0-block-title',
-              children: '一站式事中风险监控',
-            },
-            {
-              name: 'content',
-              children: '在所有需求配置环节事前风险控制和质量控制能力',
-            },
-          ],
-        },
-      },
-      {
-        name: 'block2',
-        className: 'content0-block',
-        md: 8,
-        xs: 24,
-        children: {
-          className: 'content0-block-item',
-          children: [
-            {
-              name: 'image',
-              className: 'content0-block-icon',
-              children: 'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
-            },
-            {
-              name: 'title',
-              className: 'content0-block-title',
-              children: '一站式数据运营',
-            },
-            {
-              name: 'content',
-              children: '沉淀产品接入效率和运营小二工作效率数据',
-            },
-          ],
-        },
-      },
-    ],
-  },
-};
-export const Content50DataSource = {
-  wrapper: { className: 'home-page-wrapper content5-wrapper' },
-  page: { className: 'home-page content5' },
-  OverPack: { playScale: 0.3, className: '' },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      { name: 'title', children: '客户案例', className: 'title-h1' },
-      {
-        name: 'content',
-        className: 'title-content',
-        children: '在这里用一段话介绍服务的案例情况',
-      },
-    ],
-  },
-  block: {
-    className: 'content5-img-wrapper',
-    gutter: 16,
-    children: [
-      {
-        name: 'block0',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
-        },
-      },
-      {
-        name: 'block1',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
-        },
-      },
-      {
-        name: 'block2',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
-        },
-      },
-      {
-        name: 'block3',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
-        },
-      },
-      {
-        name: 'block4',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
-        },
-      },
-      {
-        name: 'block5',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
-        },
-      },
-      {
-        name: 'block6',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
-        },
-      },
-      {
-        name: 'block7',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
-        },
+        name: 'time',
+        className: 'banner3-time',
+        children: '亿氪信息 / 中国·上海',
       },
     ],
   },
@@ -373,13 +83,13 @@ export const Content30DataSource = {
     children: [
       {
         name: 'title',
-        children: '蚂蚁金融云提供专业的服务',
+        children: '亿氪物联云提供专业的服务',
         className: 'title-h1',
       },
       {
         name: 'content',
         className: 'title-content',
-        children: '基于阿里云强大的基础资源',
+        children: '基于云原生强大的基础资源',
       },
     ],
   },
@@ -498,6 +208,63 @@ export const Content30DataSource = {
     ],
   },
 };
+export const Content120DataSource = {
+  wrapper: { className: 'home-page-wrapper content12-wrapper' },
+  page: { className: 'home-page content12' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'image',
+        children: 'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
+        className: 'title-image',
+      },
+      { name: 'title', children: '合作伙伴', className: 'title-h1' },
+    ],
+  },
+  block: {
+    className: 'img-wrapper',
+    children: [
+      {
+        name: 'block0',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children: 'https://www.usr.cn/Public/Usrcn2017/img/logo-lanse.png',
+          },
+        },
+      },
+      {
+        name: 'block1',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children: 'https://gw.alipayobjects.com/zos/rmsportal/hkLGkrlCEkGZeMQlnEkD.svg',
+          },
+        },
+      },
+      {
+        name: 'block2',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children: 'https://gw.alipayobjects.com/zos/rmsportal/bqyPRSZmhvrsfJrBvASi.svg',
+          },
+        },
+      },
+    ],
+  },
+};
 export const Footer10DataSource = {
   wrapper: { className: 'home-page-wrapper footer1-wrapper' },
   OverPack: { className: 'footer1', playScale: 0.2 },
@@ -512,14 +279,14 @@ export const Footer10DataSource = {
         className: 'block',
         title: {
           className: 'logo',
-          children: 'https://zos.alipayobjects.com/rmsportal/qqaimmXZVSwAhpL.svg',
+          children: 'Echo IoT',
         },
         childWrapper: {
           className: 'slogan',
           children: [
             {
               name: 'content0',
-              children: 'Animation specification and components of Ant Design.',
+              children: 'Trusted Industrial IoT Integrated Solution Provider.',
             },
           ],
         },
@@ -573,7 +340,358 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <span>
-        ©2021 by <a href="#">亿氪生物</a> All Rights Reserved
+        ©2021 by <a href="https://www.bytegopher.com">上海亿氪信息技术有限公司</a> All Rights
+        Reserved
+      </span>
+    ),
+  },
+};
+
+export const Teams30DataSource = {
+  wrapper: { className: 'home-page-wrapper teams3-wrapper' },
+  page: { className: 'home-page teams3' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [{ name: 'title', children: '团队成员' }],
+  },
+  blockTop: {
+    className: 'block-top-wrapper',
+    children: [
+      {
+        name: 'block0',
+        className: 'block-top',
+        md: 8,
+        xs: 24,
+        titleWrapper: {
+          children: [
+            {
+              name: 'image',
+              className: 'teams3-top-image',
+              children:
+                'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            },
+            {
+              name: 'title',
+              className: 'teams3-top-title',
+              children: '叶秀英',
+            },
+            {
+              name: 'content',
+              className: 'teams3-top-job',
+              children: '公司+职位 信息暂缺',
+            },
+            {
+              name: 'content1',
+              className: 'teams3-top-content',
+              children:
+                'AntV 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block1',
+        className: 'block-top',
+        md: 8,
+        xs: 24,
+        titleWrapper: {
+          children: [
+            {
+              name: 'image',
+              className: 'teams3-top-image',
+              children:
+                'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+            },
+            { name: 'title', className: 'teams3-top-title', children: '任强' },
+            {
+              name: 'content',
+              className: 'teams3-top-job',
+              children: 'CEO & CTO',
+            },
+            {
+              name: 'content1',
+              className: 'teams3-top-content',
+              children:
+                '曾就职与字节跳动，从事微服务大规模时序数据监测与报警相关工作。之后就职于Intel，从事Cloud Native周边开发工作。',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block2',
+        className: 'block-top',
+        md: 8,
+        xs: 24,
+        titleWrapper: {
+          children: [
+            {
+              name: 'image',
+              className: 'teams3-top-image',
+              children:
+                'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            },
+            {
+              name: 'title',
+              className: 'teams3-top-title',
+              children: '叶秀英',
+            },
+            {
+              name: 'content',
+              className: 'teams3-top-job',
+              children: '公司+职位 信息暂缺',
+            },
+            {
+              name: 'content1',
+              className: 'teams3-top-content',
+              children:
+                'AntV 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。',
+            },
+          ],
+        },
+      },
+    ],
+  },
+  block: {
+    className: 'block-wrapper',
+    gutter: 72,
+    children: [
+      {
+        name: 'block0',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams3-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams3-textWrapper',
+          children: [
+            { name: 'title', className: 'teams3-title', children: '叶秀英' },
+            {
+              name: 'content',
+              className: 'teams3-job',
+              children: '公司+职位 信息暂缺',
+            },
+            {
+              name: 'content1',
+              className: 'teams3-content',
+              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block1',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams3-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams3-textWrapper',
+          children: [
+            { name: 'title', className: 'teams3-title', children: '韩勇' },
+            {
+              name: 'content',
+              className: 'teams3-job',
+              children: '公司+职位 信息暂缺',
+            },
+            {
+              name: 'content1',
+              className: 'teams3-content',
+              children: '语雀是一款优雅高效的在线文档编辑与协同工具。',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block2',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams3-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams3-textWrapper',
+          children: [
+            { name: 'title', className: 'teams3-title', children: '叶秀英' },
+            {
+              name: 'content',
+              className: 'teams3-job',
+              children: '公司+职位 信息暂缺',
+            },
+            {
+              name: 'content1',
+              className: 'teams3-content',
+              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block3',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams3-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams3-textWrapper',
+          children: [
+            { name: 'title', className: 'teams3-title', children: '叶秀英' },
+            {
+              name: 'content',
+              className: 'teams3-job',
+              children: '公司+职位 信息暂缺',
+            },
+            {
+              name: 'content1',
+              className: 'teams3-content',
+              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+            },
+          ],
+        },
+      },
+    ],
+  },
+};
+export const Feature00DataSource = {
+  wrapper: { className: 'home-page-wrapper content0-wrapper' },
+  page: { className: 'home-page content0' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [{ name: 'title', children: '联系方式' }],
+  },
+  childWrapper: {
+    className: 'content0-block-wrapper',
+    children: [
+      {
+        name: 'block0',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            // {
+            //   name: 'image',
+            //   className: 'content0-block-icon',
+            //   children:
+            //     '/big-logo.jpg',
+            // },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: '邮件',
+            },
+            { name: 'content', children: 'echo@outxxok.com' },
+          ],
+        },
+      },
+      {
+        name: 'block1',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            // {
+            //   name: 'image',
+            //   className: 'content0-block-icon',
+            //   children:
+            //     '',
+            // },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: '电话',
+            },
+            {
+              name: 'content',
+              children: '021-6345xxxx',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block2',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            // {
+            //   name: 'image',
+            //   className: 'content0-block-icon',
+            //   children:
+            //     '',
+            // },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: '公司地址',
+            },
+            {
+              name: 'content',
+              children: '上海市闵行区莲花南路3999号',
+            },
+          ],
+        },
+      },
+    ],
+  },
+};
+export const Contact00DataSource = {
+  wrapper: { className: 'home-page-wrapper content10-wrapper' },
+  Content: {
+    className: 'icon-wrapper',
+    children: {
+      icon: {
+        className: 'icon',
+        children: 'https://gw.alipayobjects.com/zos/rmsportal/zIUVomgdcKEKcnnQdOzw.svg',
+        name: '主要图标',
+      },
+      iconShadow: {
+        className: 'icon-shadow',
+        children: 'https://gw.alipayobjects.com/zos/rmsportal/WIePwurYppfVvDNASZRN.svg',
+        name: '图标影阴',
+      },
+      url: { children: 'https://gaode.com/place/B0FFF01W5I', name: '跳转地址' },
+      title: { children: '公司地址', name: '弹框标题' },
+      content: {
+        children: '上海亿氪信息技术有限公司 \n 上海市闵行区莲花南路3999号',
+        name: '弹框内容',
+      },
+    },
+  },
+};
+export const Footer00DataSource = {
+  wrapper: { className: 'home-page-wrapper footer0-wrapper' },
+  OverPack: { className: 'home-page footer0', playScale: 0.05 },
+  copyright: {
+    className: 'copyright',
+    children: (
+      <span>
+        ©2018 <a href="https://motion.ant.design">Ant Motion</a> All Rights Reserved
       </span>
     ),
   },

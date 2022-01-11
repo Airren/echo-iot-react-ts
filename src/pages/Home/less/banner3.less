@@ -1,0 +1,91 @@
+@banner3: banner3;
+.@{banner3} {
+  position: relative;
+  // 如果在第一屏且导航位置为 relative, 一屏为 height: calc(~"100vh - 64px");
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-image: url('https://gw.alipayobjects.com/zos/rmsportal/xTPkCNNLOnTEbGgVZOpE.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  border-color: #666;
+  & &-text-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 80%;
+    max-width: 845px;
+    height: 500px;
+    margin: auto;
+    color: @template-text-color-light;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    > .queue-anim-leaving {
+      position: relative !important;
+    }
+  }
+  & &-slogan {
+    margin: 26px auto 38px;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 80px;
+    text-indent: 2px;
+  }
+  & &-name-en {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+  }
+  & &-name {
+    overflow: hidden;
+    font-size: 24px;
+    opacity: 0.8;
+  }
+  & &-button {
+    display: block;
+    width: 132px;
+    height: 42px;
+    margin: 72px auto 0;
+    line-height: 42px;
+    background: rgb(3, 67, 101);
+    background: -moz-linear-gradient(left, rgba(3, 67, 101, 1) 0%, rgba(0, 27, 51, 1) 100%);
+    background: linear-gradient(to right, rgba(3, 67, 101, 1) 0%, rgba(0, 27, 51, 1) 100%);
+    border: none;
+    border-radius: 42px;
+    box-shadow: 0 8px 16px #0a52ab;
+    transition: background 0.45s @ease-out;
+  }
+  & &-time {
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{banner3} {
+    background-attachment: inherit;
+    & &-text-wrapper {
+      width: 90%;
+      height: 50%;
+    }
+    & &-name-en {
+      font-size: 12px;
+    }
+    & &-slogan {
+      margin: 12px 0;
+      font-size: 24px;
+      line-height: 1.5;
+    }
+    & &-name {
+      font-size: 14px;
+    }
+  }
+}

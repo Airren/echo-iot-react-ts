@@ -12,9 +12,9 @@ const Settings: LayoutSettings & {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: '亿氪生物',
+  title: '亿氪信息',
   pwa: false,
-  logo: 'logo.svg',
+  logo: '/big-logo.jpg',
   iconfontUrl: '',
 };
 

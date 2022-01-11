@@ -5,48 +5,44 @@ export default [
     routes: [
       {
         path: '/user',
-        routes: [{
-          name: '登录',
-          path: '/user/login',
-          component: './user/Login'
-        }]
+        routes: [
+          {
+            name: '登录',
+            path: '/user/login',
+            component: './user/Login',
+          },
+        ],
       },
-      {component: './404'},
+      {
+        component: './404',
+      },
     ],
+  },
+  {
+    name: '物联云',
+    icon: 'bank',
+    path: '/dashboard/dashboardmonitor',
+    component: './DashboardMonitor',
   },
   {
     path: '/',
     layout: false,
-
     access: 'guest',
-    component: './Home'
+    component: './Home/Home',
   },
   {
-    icon: 'tool',
-    name: '分析工具',
-    path: '/commontools',
-    component: './CommonTools'
-  },
-  {
-    icon: 'UnorderedListOutlined',
-    name: '我的任务',
-    path: '/order',
-    component: './Order'
-  },
-  {
-    icon: 'UnorderedListOutlined',
-    name: '后台管理',
-    access: 'admin',
-    path: '/order2',
-    component: './Order',
+    path: '/contact',
+    layout: false,
+    access: 'guest',
+    component: './Home/Contact',
   },
   {
     path: '/welcome',
-    name: '亿氪生信云',
+    name: '亿氪信息',
     icon: 'bank',
-    component: './Welcome'
+    component: './Welcome',
   },
   {
-    component: './404'
+    component: './404',
   },
 ];
